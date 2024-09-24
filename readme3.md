@@ -279,6 +279,31 @@ The system will often need to be distributed across multiple nodes or servers. H
 
 Below is a detailed plaintext architecture diagram, illustrating the system components, redundancy, and data flow. This diagram incorporates detailed components, showing redundancy and sharding strategies.
 
+
+Below is a detailed plaintext architecture diagram, illustrating the system components, redundancy, and data flow.
+
+To ensure GPT fills in the boxes with more detailed logic, descriptions, and examples (as you illustrated), we can modify the instructions accordingly. Here is an updated version of the instructions to include more detailed content in the boxes:
+
+---
+
+### Instructions for Redrawing Diagrams with Detailed Component Descriptions:
+
+1. **Diagram Structure**: 
+    - Use plaintext to represent components as boxes (`+---+`).
+    - Use arrows (`→`, `←`) to indicate the flow of data between components.
+    - Label the flow between components as either read (`[R]`) or write (`[W]`) operations.
+
+2. **Component Details**: 
+    - Inside each box, include detailed descriptions of the logic and purpose of the component.
+    - Provide examples of what data might be handled by the component, such as keys, URLs, or binary data.
+    - If a component stores data (e.g., databases, caches), include details about the data structure (e.g., LSM-tree, SSTable, BLOB storage), and provide concrete examples of how that data might look.
+
+3. **Redundancy and Failover**: 
+    - Clearly distinguish between primary and backup systems where applicable. Label components with `[Primary]` and `[Backup]` if redundancy is involved. 
+    - Describe the failover process between primary and backup systems.
+
+4. **Example Diagram with Detailed Component Descriptions**: 
+
 ```
                                     +----------------------+
                                     |         Users        |
