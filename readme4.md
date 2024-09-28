@@ -282,7 +282,6 @@ The system will often need to be distributed across multiple nodes or servers. H
   - **Example**: Handling high write throughput in a messaging system.
 
 
-
 **Components and Redundancy**:
 
 - **Load Balancer**: Distributes incoming traffic to API servers. **Redundant** to prevent a single point of failure.
